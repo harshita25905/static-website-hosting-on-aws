@@ -1,0 +1,363 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Harshita Sharma — Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&family=JetBrains+Mono:wght@400;500;700&family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="noise"></div>
+    <div class="cursor-dot" id="cursorDot"></div>
+
+    <!-- NAV -->
+    <header class="nav" id="nav">
+      <div class="nav-inner">
+        <a href="#top" class="nav-logo">HS<span>.</span></a>
+        <nav class="nav-links">
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#certs">Certs</a>
+          <a href="#education">Education</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <a href="#contact" class="nav-cta">Let's talk</a>
+        <button class="nav-burger" id="navBurger" aria-label="Toggle menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero" id="top">
+      <div class="hero-eyebrow">
+        <span class="tag">B.TECH CSE (AI) · KIET</span>
+        <span class="tag tag--live"><i></i>OPEN TO INTERNSHIPS</span>
+      </div>
+
+      <div class="hero-main">
+        <h1 class="hero-title">
+          <span class="hero-title-hello">Hi, I build things —</span>
+          <span class="hero-title-name">HARSHITA<br />SHARMA</span>
+        </h1>
+
+        <div class="hero-photo">
+          <img src="harshita.png" alt="Harshita Sharma" />
+          <div class="hero-photo-frame"></div>
+        </div>
+
+        <div class="hero-stats">
+          <div class="stat">
+            <span class="stat-num">7.9</span>
+            <span class="stat-label">CGPA<br />so far</span>
+          </div>
+          <div class="stat">
+            <span class="stat-num">03</span>
+            <span class="stat-label">AWS<br />certifications</span>
+          </div>
+          <div class="stat">
+            <span class="stat-num">02+</span>
+            <span class="stat-label">Shipped<br />projects</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-sub">
+        <p class="hero-role">
+          Backend Developer <span>&amp;</span> Cloud / AI Enthusiast
+        </p>
+        <div class="terminal">
+          <div class="terminal-bar">
+            <span class="dot red"></span><span class="dot yellow"></span
+            ><span class="dot green"></span>
+            <span class="terminal-title">whoami.sh</span>
+          </div>
+          <div class="terminal-body">
+            <p><span class="prompt">$</span> whoami</p>
+            <p class="typed" id="typedLine">
+              CSE (AI) student · Java, Python, C++ · AWS · Spring Boot · FastAPI
+              · Unity
+            </p>
+            <p>
+              <span class="prompt">$</span> <span class="cursor-blink">_</span>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <a href="#about" class="scroll-cue"><span>scroll</span><i></i></a>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section about" id="about">
+      <div class="section-head">
+        <span class="section-index">01</span>
+        <h2>About</h2>
+      </div>
+      <div class="about-grid">
+        <p class="about-text">
+          I'm a second-year Computer Science (AI) student at KIET Group of
+          Institutions, Ghaziabad — currently sitting at a 7.9 CGPA. My work
+          lives at the intersection of backend engineering and cloud
+          infrastructure: I like taking a system apart, understanding how the
+          request actually travels from client to database, and rebuilding it
+          cleaner. Outside of APIs, I build small worlds in Unity, where the
+          same problem-solving shows up as game logic instead of endpoints.
+        </p>
+        <div class="about-facts">
+          <div class="fact">
+            <span class="fact-label">Based in</span>
+            <span class="fact-value">Ghaziabad, India</span>
+          </div>
+          <div class="fact">
+            <span class="fact-label">Studying</span>
+            <span class="fact-value">B.Tech CSE (AI), 2024–2028</span>
+          </div>
+          <div class="fact">
+            <span class="fact-label">Currently</span>
+            <span class="fact-value">Contributor @ GSSOC 2026</span>
+          </div>
+          <div class="fact">
+            <span class="fact-label">Recognition</span>
+            <span class="fact-value">Top 200, Flipkart GWC 7.0</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section skills" id="skills">
+      <div class="section-head">
+        <span class="section-index">02</span>
+        <h2>Skills</h2>
+      </div>
+
+      <div class="skills-grid">
+        <div class="skill-block">
+          <h3><span class="skill-glyph">&lt;/&gt;</span> Languages</h3>
+          <div class="tag-row">
+            <span class="skill-tag">C++</span>
+            <span class="skill-tag">Java</span>
+            <span class="skill-tag">Python</span>
+            <span class="skill-tag">JavaScript</span>
+          </div>
+        </div>
+        <div class="skill-block">
+          <h3><span class="skill-glyph">◱</span> Web &amp; Backend</h3>
+          <div class="tag-row">
+            <span class="skill-tag">HTML</span>
+            <span class="skill-tag">CSS</span>
+            <span class="skill-tag">FastAPI</span>
+            <span class="skill-tag">Spring Boot</span>
+            <span class="skill-tag">REST APIs</span>
+          </div>
+        </div>
+        <div class="skill-block">
+          <h3><span class="skill-glyph">☁</span> Cloud</h3>
+          <div class="tag-row">
+            <span class="skill-tag">AWS EC2</span>
+            <span class="skill-tag">IAM</span>
+            <span class="skill-tag">VPC</span>
+          </div>
+        </div>
+        <div class="skill-block">
+          <h3><span class="skill-glyph">⚙</span> Tools &amp; Platforms</h3>
+          <div class="tag-row">
+            <span class="skill-tag">Git</span>
+            <span class="skill-tag">GitHub</span>
+            <span class="skill-tag">Postman</span>
+            <span class="skill-tag">VS Code</span>
+            <span class="skill-tag">Unity Hub</span>
+          </div>
+        </div>
+        <div class="skill-block">
+          <h3><span class="skill-glyph">◆</span> Core Concepts</h3>
+          <div class="tag-row">
+            <span class="skill-tag">OOP</span>
+            <span class="skill-tag">CRUD Operations</span>
+            <span class="skill-tag">MySQL / JPA</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="section projects" id="projects">
+      <div class="section-head">
+        <span class="section-index">03</span>
+        <h2>Projects</h2>
+      </div>
+
+      <div class="project-list">
+        <article class="project-card">
+          <div class="project-window">
+            <div class="terminal-bar">
+              <span class="dot red"></span><span class="dot yellow"></span
+              ><span class="dot green"></span>
+              <span class="terminal-title">kitchen-chaos/</span>
+            </div>
+            <div class="project-visual project-visual--game">
+              <span class="project-visual-tag">Unity 3D</span>
+            </div>
+          </div>
+          <div class="project-info">
+            <span class="project-number">01</span>
+            <h3>Kitchen Chaos</h3>
+            <p class="project-stack">Unity 3D · C#</p>
+            <p class="project-desc">
+              A fast-paced 3D kitchen simulation game with full scene management
+              from main menu to gameplay. Built cutting, cooking, and burning
+              mechanics through collision detection and C# events, layered with
+              character animation, world-space UI, post-processing effects, and
+              background audio.
+            </p>
+            <ul class="project-points">
+              <li>Post-processing effects for a polished, atmospheric look</li>
+              <li>Collision detection &amp; C# events driving core gameplay</li>
+              <li>Pickup, drop, cut, and burn interaction systems</li>
+              <li>Main Menu → Loading → Game scene flow</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="project-card project-card--reverse">
+          <div class="project-window">
+            <div class="terminal-bar">
+              <span class="dot red"></span><span class="dot yellow"></span
+              ><span class="dot green"></span>
+              <span class="terminal-title">student-api/</span>
+            </div>
+            <div class="project-visual project-visual--api">
+              <div class="api-line">
+                <span class="api-method get">GET</span> /api/students
+              </div>
+              <div class="api-line">
+                <span class="api-method post">POST</span> /api/students
+              </div>
+              <div class="api-line">
+                <span class="api-method put">PUT</span> /api/students/:id
+              </div>
+              <div class="api-line">
+                <span class="api-method del">DEL</span> /api/students/:id
+              </div>
+            </div>
+          </div>
+          <div class="project-info">
+            <span class="project-number">02</span>
+            <h3>Student Management REST API</h3>
+            <p class="project-stack">Java · Spring Boot · MySQL</p>
+            <p class="project-desc">
+              A backend REST API for managing student records, structured around
+              a clean Controller–Service–Repository architecture. Persistence
+              runs through JPA/Hibernate into MySQL, with every endpoint
+              verified in Postman before being called done.
+            </p>
+            <ul class="project-points">
+              <li>Full CRUD operations for student records</li>
+              <li>Controller–Service–Repository layered architecture</li>
+              <li>MySQL persistence via JPA/Hibernate</li>
+              <li>Endpoint testing &amp; validation in Postman</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- CERTIFICATIONS -->
+    <section class="section certs" id="certs">
+      <div class="section-head">
+        <span class="section-index">04</span>
+        <h2>Certifications</h2>
+      </div>
+      <div class="cert-grid">
+        <div class="cert-card">
+          <span class="cert-code">CLF-02</span>
+          <h3>AWS Certified Cloud Practitioner</h3>
+          <span class="cert-date">December 2025</span>
+        </div>
+        <div class="cert-card">
+          <span class="cert-code">SAA-03</span>
+          <h3>AWS Solutions Architect Associate</h3>
+          <span class="cert-date">May 2026</span>
+        </div>
+        <div class="cert-card">
+          <span class="cert-code">AIF</span>
+          <h3>AWS AI Practitioner</h3>
+          <span class="cert-date">June 2026</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section class="section education" id="education">
+      <div class="section-head">
+        <span class="section-index">05</span>
+        <h2>Education</h2>
+      </div>
+      <div class="timeline">
+        <div class="timeline-item">
+          <span class="timeline-year">2024 — 2028</span>
+          <div class="timeline-content">
+            <h3>B.Tech, Computer Science (AI)</h3>
+            <p>KIET Group of Institutions, Ghaziabad</p>
+            <span class="timeline-score">7.9 CGPA</span>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <span class="timeline-year">2023</span>
+          <div class="timeline-content">
+            <h3>Senior Secondary Examination</h3>
+            <p>Don Bosco School, Jhansi, UP</p>
+            <span class="timeline-score">91.5%</span>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <span class="timeline-year">2021</span>
+          <div class="timeline-content">
+            <h3>Secondary School Examination</h3>
+            <p>Don Bosco School, Jhansi, UP</p>
+            <span class="timeline-score">94%</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section contact" id="contact">
+      <div class="contact-inner">
+        <span class="section-index">06</span>
+        <h2 class="contact-title">Let's build<br />something.</h2>
+        <p class="contact-sub">
+          Open to internships and collaborative projects — reach out any time.
+        </p>
+        <div class="contact-links">
+          <a href="mailto:harshita25905@gmail.com" class="contact-link">
+            <span class="contact-link-label">Email</span>
+            <span class="contact-link-value">harshita25905@gmail.com</span>
+          </a>
+          <a href="tel:+918726982249" class="contact-link">
+            <span class="contact-link-label">Phone</span>
+            <span class="contact-link-value">+91 87269 82249</span>
+          </a>
+          <a href="#" class="contact-link" id="linkedinLink">
+            <span class="contact-link-label">LinkedIn</span>
+            <span class="contact-link-value">/in/harshita-sharma</span>
+          </a>
+        </div>
+      </div>
+      <footer class="footer">
+        <span>© 2026 Harshita Sharma</span>
+        <span>Built with HTML, CSS &amp; JS</span>
+      </footer>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
